@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SammyDesignPro helps businesses grow with professional website design, graphic design, branding, and digital solutions.">
+<title>SammyDesignPro | Design • Build • Grow</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080b12;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #242a38;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #54e0a0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.hero {
+    padding: 80px 22px;
+    text-align: center;
+    background: radial-gradient(circle at top, #17372f, #080b12 65%);
+}
+
+.badge {
+    color: #54e0a0;
+    border: 1px solid #285a49;
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 30px;
+    margin-bottom: 22px;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: clamp(36px, 8vw, 64px);
+    line-height: 1.15;
+    margin-bottom: 22px;
+}
+
+h1 span {
+    color: #54e0a0;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #c0c7d4;
+}
+
+.button {
+    display: inline-block;
+    background: #54e0a0;
+    color: #07120d;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.button.secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid #495363;
+}
+
+section {
+    padding: 65px 22px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.section-intro {
+    text-align: center;
+    color: #aeb8c8;
+    margin-bottom: 35px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: #111722;
+    border: 1px solid #273141;
+    padding: 25px;
+    border-radius: 14px;
+}
+
+.card .icon {
+    font-size: 30px;
+}
+
+.card h3 {
+    margin: 12px 0;
+    color: #54e0a0;
+}
+
+.card p {
+    color: #b9c2d0;
+    font-size: 14px;
+}
+
+.process {
+    text-align: center;
+    background: #101720;
+    border-radius: 18px;
+    padding: 35px 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    color: #bdc5d2;
+    margin: 15px auto 25px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #273141;
+    padding: 25px 15px;
+    color: #aab4c4;
+    font-size: 13px;
+}
+
+footer strong {
+    color: #54e0a0;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 16px 12px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    nav a {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 65px 18px;
+    }
+
+    section {
+        padding: 50px 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Sammy<span>DesignPro</span></div>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<div class="hero">
+    <div class="badge">CREATIVE DESIGN & DIGITAL SOLUTIONS</div>
+
+    <h1>Design That Makes<br>Your Business <span>Stand Out.</span></h1>
+
+    <p>
+        We help businesses, entrepreneurs and brands build a stronger
+        online presence through professional design, modern websites
+        and creative digital solutions.
+    </p>
+
+    <a class="button" href="#contact">Let's Work Together →</a>
+    <a class="button secondary" href="#services">Explore Our Services</a>
+</div>
+
+<section id="services">
+    <h2 class="section-title">What We Do</h2>
+    <p class="section-intro">
+        Creative solutions designed to help your brand move forward.
+    </p>
+
+    <div class="services">
+
+        <div class="card">
+            <div class="icon">🌐</div>
+            <h3>Website Design</h3>
+            <p>
+                Modern, mobile-friendly websites that present your
+                business professionally and help customers find you.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎨</div>
+            <h3>Graphic Design</h3>
+            <p>
+                Professional promotional graphics and visual content
+                that help your brand communicate clearly.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">✨</div>
+            <h3>Brand Identity</h3>
+            <p>
+                Logo design and visual branding to give your business
+                a consistent and memorable appearance.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🛍️</div>
+            <h3>E-commerce Solutions</h3>
+            <p>
+                Online store design and digital experiences that make
+                it easier for customers to explore your products.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <div class="process">
+        <h2 class="section-title">Your Vision. Our Creativity.</h2>
+        <p>
+            At SammyDesignPro, our goal is to help businesses build
+            a professional digital presence through thoughtful design,
+            practical technology and creative problem-solving.
+        </p>
+        <br>
+        <strong style="color:#54e0a0;">DESIGN • BUILD • GROW.</strong>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Ready to Grow Your Brand?</h2>
+    <p>
+        Have a project in mind? Let's discuss your ideas and explore
+        how we can help bring them to life.
+    </p>
+
+    <a class="button"
+       href="https://wa.me/2349139193450?text=Hello%20SammyDesignPro%2C%20I%20am%20interested%20in%20your%20services."
+       target="_blank" rel="noopener noreferrer">
+       Chat With Us on WhatsApp
+    </a>
+</section>
+
+</main>
+
+<footer>
+    <strong>SammyDesignPro</strong><br>
+    Design • Build • Grow.<br>
+    © 2026 SammyDesignPro. All rights reserved.
+</footer>
+
+</body>
+</html>
