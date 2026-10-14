@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="SammyDesignPro helps businesses grow with professional website design, graphic design, branding, e-commerce and digital solutions.">
   <title>SammyDesignPro | Design • Build • Grow.</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta name="theme-color" content="#000000">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+  <!-- Stylesheet (repository-relative path) -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta name="theme-color" content="#080A0A">
   <meta property="og:title" content="SammyDesignPro — Design • Build • Grow.">
   <meta property="og:description" content="Premium digital agency services: web design, branding, e-commerce and creative digital solutions.">
   <meta property="og:type" content="website">
@@ -15,19 +18,19 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <div class="brand"><a href="/">Sammy<span>DesignPro</span></a></div>
+      <div class="brand"><a href="index.html">Sammy<span>DesignPro</span></a></div>
 
       <button id="navToggle" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">Menu</button>
 
       <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/services/index.html">Services</a></li>
-          <li><a href="/portfolio/index.html">Portfolio</a></li>
-          <li><a href="/gallery/index.html">Design Gallery</a></li>
-          <li><a href="/blog/index.html">Blog</a></li>
-          <li><a href="/contact.html" class="cta">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services/index.html">Services</a></li>
+          <li><a href="portfolio/index.html">Portfolio</a></li>
+          <li><a href="gallery/index.html">Design Gallery</a></li>
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="contact.html" class="cta">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -36,106 +39,85 @@
   <main id="main">
     <section class="hero">
       <div class="wrap hero-inner">
-        <p class="eyebrow">Creative Design & Digital Solutions</p>
-        <h1 class="hero-title">WE DESIGN. WE BUILD. WE HELP BRANDS <span>GROW.</span></h1>
-        <p class="hero-sub">From stunning websites and creative designs to complete digital experiences, SammyDesignPro helps businesses present themselves professionally and build a stronger online presence.</p>
+        <div class="hero-content">
+          <p class="eyebrow">SAMMYDESIGNPRO</p>
+          <h1 class="hero-title">WE DESIGN. WE BUILD.<br><span class="accent">WE HELP BRANDS GROW.</span></h1>
+          <p class="hero-sub">We create professional websites, compelling designs, and digital experiences that help businesses build a stronger online presence.</p>
 
-        <p class="hero-ctas">
-          <a href="/portfolio/index.html" class="btn primary">EXPLORE OUR WORK</a>
-          <a href="/contact.html" class="btn outline">START A PROJECT</a>
-        </p>
+          <p class="hero-ctas">
+            <a href="portfolio/index.html" class="btn primary">EXPLORE OUR WORK</a>
+            <a href="contact.html" class="btn outline">START A PROJECT</a>
+          </p>
+
+          <div class="hero-signature">Design <span class="dot">•</span> Build <span class="dot">•</span> Grow.</div>
+        </div>
+
+        <div class="hero-mockups" aria-hidden="true">
+          <div class="mockup desktop" role="img" aria-label="Desktop mockup preview">
+            <!-- CSS-driven mockup: decorative only -->
+            <div class="screen">
+              <div class="browser-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="hero-screenshot">SammyDesignPro — Project preview</div>
+            </div>
+          </div>
+          <div class="mockup mobile" role="img" aria-label="Mobile mockup preview">
+            <div class="phone-screen">Preview</div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="intro" class="wrap section">
-      <div class="intro-grid">
-        <div>
-          <h2>About SammyDesignPro</h2>
-          <p>SammyDesignPro is a creative digital brand offering website development, graphic design, branding, e-commerce development and other digital solutions focused on clarity, creativity and performance.</p>
-          <p><strong>Design • Build • Grow.</strong></p>
-        </div>
-
-        <div class="services-overview">
-          <h3>Featured Services</h3>
-          <ul>
-            <li>Website Design & Development</li>
-            <li>Graphic & Flyer Design</li>
-            <li>Logo & Brand Identity</li>
-            <li>E-commerce & Shopify</li>
-            <li>Digital Solutions</li>
-          </ul>
-        </div>
+    <!-- Services -->
+    <section id="services" class="wrap section">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-intro">Crafting digital experiences with design-first thinking, technical reliability and business clarity.</p>
+      <div class="services-grid">
+        <a class="service-card" href="services/website-design.html"><h3>Website Design & Development</h3><p>Modern, responsive websites focused on clarity and performance.</p></a>
+        <a class="service-card" href="services/graphic-design.html"><h3>Graphic & Flyer Design</h3><p>Promotional materials and visual campaigns that communicate effectively.</p></a>
+        <a class="service-card" href="services/logo-design.html"><h3>Logo Design</h3><p>Distinctive marks and identity systems for digital and print.</p></a>
+        <a class="service-card" href="services/brand-identity.html"><h3>Brand Identity</h3><p>Comprehensive visual identity and brand guidelines.</p></a>
+        <a class="service-card" href="services/ecommerce.html"><h3>E-commerce & Shopify</h3><p>Storefront design and product-focused shopping experiences.</p></a>
+        <a class="service-card" href="services/digital-solutions.html"><h3>Digital Solutions</h3><p>Custom integrations, lightweight apps and technical consulting.</p></a>
       </div>
     </section>
 
-    <section id="featured-projects" class="wrap section">
+    <!-- Portfolio preview -->
+    <section id="portfolio" class="wrap section">
       <h2 class="section-title">Featured Projects</h2>
-      <p class="section-intro">Selected projects that demonstrate design quality and practical digital solutions.</p>
-
-      <div class="grid projects-grid">
-        <!-- Project cards: 9 projects -->
+      <p class="section-intro">Selected projects showcasing design quality and practical solutions.</p>
+      <div class="projects-grid">
         <article class="project-card">
-          <div class="project-preview" aria-hidden="true">
-            <svg role="img" class="placeholder" width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
-              <rect width="100%" height="100%" fill="#0b0d10"></rect>
-              <text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">SammyDesignPro Main Portfolio</text>
-            </svg>
-          </div>
-          <div class="project-body">
-            <h3>SammyDesignPro Main Portfolio</h3>
-            <p>Agency home and portfolio showcasing services, work samples and brand presence.</p>
-            <p class="project-meta">Category: Agency</p>
-            <p><a class="btn tiny" href="https://sammy-design-pro.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p>
-          </div>
+          <img data-src="assets/images/projects/sammy-portfolio.svg" alt="SammyDesignPro Main Portfolio preview" class="lazy">
+          <div class="project-body"><h3>SammyDesignPro Main Portfolio</h3><p>Agency home presenting services and portfolio.</p><p class="meta">Category: Agency</p><p><a class="btn tiny" href="https://sammy-design-pro.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div>
         </article>
-
         <article class="project-card">
-          <div class="project-preview"><svg class="placeholder" width="640" height="360" viewBox="0 0 640 360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">SmartChi Flow</text></svg></div>
-          <div class="project-body"><h3>SmartChi Flow</h3><p>User-facing app and flow design concept.</p><p class="project-meta">Category: Web App</p><p><a class="btn tiny" href="https://smart-chi-flow.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div>
+          <img data-src="assets/images/projects/smartchi.svg" alt="SmartChi Flow preview" class="lazy">
+          <div class="project-body"><h3>SmartChi Flow</h3><p>User-facing app and flow design concept.</p><p class="meta">Category: Web App</p><p><a class="btn tiny" href="https://smart-chi-flow.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div>
         </article>
-
         <article class="project-card">
-          <div class="project-preview"><svg class="placeholder" width="640" height="360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">Prowrite Academic Hub</text></svg></div>
-          <div class="project-body"><h3>Prowrite Academic Hub</h3><p>Academic writing platform sample presentation.</p><p class="project-meta">Category: Education</p><p><a class="btn tiny" href="https://prowrite-academic-hub.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div>
+          <img data-src="assets/images/projects/prowrite.svg" alt="Prowrite Academic Hub preview" class="lazy">
+          <div class="project-body"><h3>Prowrite Academic Hub</h3><p>Academic writing platform concept.</p><p class="meta">Category: Education</p><p><a class="btn tiny" href="https://prowrite-academic-hub.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div>
         </article>
-
-        <article class="project-card">
-          <div class="project-preview"><svg class="placeholder" width="640" height="360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">Smart Wear Shop</text></svg></div>
-          <div class="project-body"><h3>Smart Wear Shop</h3><p>E-commerce storefront concept focused on product presentation.</p><p class="project-meta">Category: E-commerce</p><p><a class="btn tiny" href="https://smart-wear-shop.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div>
-        </article>
-
-        <article class="project-card"><div class="project-preview"><svg class="placeholder" width="640" height="360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">Ogah Flair Homes</text></svg></div><div class="project-body"><h3>Ogah Flair Homes</h3><p>Real estate showcase and property presentation.</p><p class="project-meta">Category: Real Estate</p><p><a class="btn tiny" href="https://ogah-flair-homes.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
-
-        <article class="project-card"><div class="project-preview"><svg class="placeholder" width="640" height="360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">RadiDrop Shopify Store</text></svg></div><div class="project-body"><h3>RadiDrop Shopify Store</h3><p>Shopify store sample (external link).</p><p class="project-meta">Category: Shopify</p><p><a class="btn tiny" href="http://Radidrop.myshopify.com" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
-
-        <article class="project-card"><div class="project-preview"><svg class="placeholder" width="640" height="360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">Idowu Craft Studio</text></svg></div><div class="project-body"><h3>Idowu Craft Studio</h3><p>Craft business site concept with product highlights.</p><p class="project-meta">Category: Small Business</p><p><a class="btn tiny" href="https://idowu-craft-studio.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
-
-        <article class="project-card"><div class="project-preview"><svg class="placeholder" width="640" height="360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">HVLUX Shopify Store</text></svg></div><div class="project-body"><h3>HVLUX Shopify Store</h3><p>Premium Shopify storefront concept.</p><p class="project-meta">Category: Shopify</p><p><a class="btn tiny" href="https://hvlux.myshopify.com" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
-
-        <article class="project-card"><div class="project-preview"><svg class="placeholder" width="640" height="360"><rect width="100%" height="100%" fill="#0b0d10"></rect><text x="50%" y="50%" fill="#54e0a0" font-size="18" font-family="Arial, sans-serif" text-anchor="middle">Double King Living</text></svg></div><div class="project-body"><h3>Double King Living</h3><p>Interior and furniture showcase landing concept.</p><p class="project-meta">Category: Interior</p><p><a class="btn tiny" href="https://double-king-living.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
-
-      </div>
-
-    </section>
-
-    <section id="why" class="wrap section">
-      <h2 class="section-title">Why Choose SammyDesignPro</h2>
-      <p class="section-intro">Design-first thinking, practical development, and attention to business outcomes.</p>
-      <div class="grid why-grid">
-        <div class="card"><h3>Creative Direction</h3><p>Art-directed visuals and clear brand messaging.</p></div>
-        <div class="card"><h3>Technical Reliability</h3><p>Performance-focused implementations that work on all devices.</p></div>
-        <div class="card"><h3>Collaborative Process</h3><p>Clear communication and iterative approvals.</p></div>
+        <article class="project-card"><img data-src="assets/images/projects/smartwear.svg" alt="Smart Wear Shop preview" class="lazy"><div class="project-body"><h3>Smart Wear Shop</h3><p>E-commerce storefront concept focused on product presentation.</p><p class="meta">Category: E-commerce</p><p><a class="btn tiny" href="https://smart-wear-shop.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
+        <article class="project-card"><img data-src="assets/images/projects/ogah.svg" alt="Ogah Flair Homes preview" class="lazy"><div class="project-body"><h3>Ogah Flair Homes</h3><p>Real estate showcase and property presentation.</p><p class="meta">Category: Real Estate</p><p><a class="btn tiny" href="https://ogah-flair-homes.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
+        <article class="project-card"><img data-src="assets/images/projects/radidrop.svg" alt="RadiDrop Shopify Store preview" class="lazy"><div class="project-body"><h3>RadiDrop Shopify Store</h3><p>Shopify store sample (external link).</p><p class="meta">Category: Shopify</p><p><a class="btn tiny" href="http://Radidrop.myshopify.com" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
+        <article class="project-card"><img data-src="assets/images/projects/idowu.svg" alt="Idowu Craft Studio preview" class="lazy"><div class="project-body"><h3>Idowu Craft Studio</h3><p>Craft business site concept with product highlights.</p><p class="meta">Category: Small Business</p><p><a class="btn tiny" href="https://idowu-craft-studio.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
+        <article class="project-card"><img data-src="assets/images/projects/hvlux.svg" alt="HVLUX Shopify Store preview" class="lazy"><div class="project-body"><h3>HVLUX Shopify Store</h3><p>Premium Shopify storefront concept.</p><p class="meta">Category: Shopify</p><p><a class="btn tiny" href="https://hvlux.myshopify.com" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
+        <article class="project-card"><img data-src="assets/images/projects/doubleking.svg" alt="Double King Living preview" class="lazy"><div class="project-body"><h3>Double King Living</h3><p>Interior and furniture showcase landing concept.</p><p class="meta">Category: Interior</p><p><a class="btn tiny" href="https://double-king-living.base44.app" target="_blank" rel="noopener noreferrer">View Project</a></p></div></article>
       </div>
     </section>
 
+    <!-- Video -->
     <section id="video" class="wrap section">
       <h2 class="section-title">SEE WHAT SAMMYDESIGNPRO CAN CREATE</h2>
       <p class="section-intro">Discover creative ideas, digital experiences, and possibilities for your brand.</p>
-      <div class="video-placeholder">
-        <div class="video-inner">
-          <img src="/assets/images/video-poster.jpg" alt="Promotional video poster" onerror="this.style.display='none'">
-          <div class="video-instruction">Add your MP4 file or embed URL in /assets/video/ or update the embed in this section.</div>
-        </div>
+      <div class="video-showcase">
+        <img src="assets/images/video-poster.svg" alt="Promotional showcase image" class="video-poster">
+        <div class="video-note">Promotional video will be added here. Contact me to supply the final MP4 or approve the storyboard for production.</div>
       </div>
     </section>
 
@@ -145,7 +127,7 @@
     <div class="wrap footer-inner">
       <div class="brand-footer">SammyDesignPro — <strong>Design • Build • Grow.</strong></div>
       <nav class="footer-nav" aria-label="Footer">
-        <a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/services/index.html">Services</a> · <a href="/portfolio/index.html">Portfolio</a> · <a href="/contact.html">Contact</a>
+        <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="services/index.html">Services</a> · <a href="portfolio/index.html">Portfolio</a> · <a href="contact.html">Contact</a>
       </nav>
       <div class="footer-meta">© 2026 SammyDesignPro</div>
     </div>
@@ -153,6 +135,6 @@
 
   <a id="backToTop" class="back-to-top" href="#main" aria-label="Back to top">↑</a>
 
-  <script src="/assets/js/main.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
